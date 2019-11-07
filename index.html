@@ -36,40 +36,75 @@
         };
         return clazz;
     }
-    var algoritmo = new MaiorEMenor();
-    console.log("Teste 01 - Dec")
-    algoritmo.encontra([7,6,5,4]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 02 - Cres")
+   
+    function validaIdade(idade){
+        if(idade>18){
+            return "maior de idade"
+        }else{
+            return "menor de idade"
+        }
+    }
 
-    algoritmo.encontra([4,5,6,7]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 03 - Misturado")
-    algoritmo.encontra([6,5,7,4]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 04 - Vazio")
-    algoritmo.encontra([6,5,"",4]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 05 - -0")
-    algoritmo.encontra([6,5,-2,4,-0]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 06 - a")
-    algoritmo.encontra([6,5,"a",4,-0]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 07 - {}")
-    algoritmo.encontra([6,5,{},4,-0]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
-    console.log("Teste 08 - vetor vazio")
-    algoritmo.encontra([]);
-    console.log(algoritmo.pegaMaior());
-    console.log(algoritmo.pegaMenor());
+    validaIdade(19) == "maior de idade";
+//    validaIdade(2) == ;
+//    validaIdade(3);
+//    validaIdade(4);
+//    validaIdade(122);
+//    validaIdade(-1);
+//    validaIdade(0);
+//    validaIdade();
+//    validaIdade({});
+//    validaIdade([1]);
+//    validaIdade("s");
+//    validaIdade(validaIdade());
+//    validaIdade(true);
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+//     var algoritmo = new MaiorEMenor();
+//     console.log("Teste 01 - Dec")
+//     algoritmo.encontra([7,6,5,4]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 02 - Cres")
+
+//     algoritmo.encontra([4,5,6,7]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 03 - Misturado")
+//     algoritmo.encontra([6,5,7,4]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 04 - Vazio")
+//     algoritmo.encontra([6,5,"",4]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 05 - -0")
+//     algoritmo.encontra([6,5,-2,4,-0]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 06 - a")
+//     algoritmo.encontra([6,5,"a",4,-0]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 07 - {}")
+//     algoritmo.encontra([6,5,{},4,-0]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
+//     console.log("Teste 08 - vetor vazio")
+//     algoritmo.encontra([]);
+//     console.log(algoritmo.pegaMaior());
+//     console.log(algoritmo.pegaMenor());
 
 </script>
 </html>
